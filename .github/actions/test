@@ -1,0 +1,15 @@
+name: 'action_test_lint'
+description: 'lint test.md'
+inputs:
+outputs:
+runs:
+  using: "composite"
+  steps:
+    - run: sudo apt install python3-proselint nodejs npm
+      shell: bash
+    - run: npm install -g write-good
+      shell: bash
+    - run: proselint test.md
+      shell: bash
+    - run: write-good test.md
+      shell: bash
