@@ -1,7 +1,5 @@
 on:
-  watch:
-    branches:
-      - master
+  status
 
 name: 'Trigger: Push action'
 
