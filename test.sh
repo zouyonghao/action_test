@@ -1,1 +1,1 @@
-ls *.exe
+ls ./*.exe
