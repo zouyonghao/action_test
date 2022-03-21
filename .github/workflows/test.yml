@@ -1,5 +1,5 @@
 on:
-  push:
+  watch:
     branches:
       - master
 
