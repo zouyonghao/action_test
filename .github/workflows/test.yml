@@ -1,5 +1,6 @@
 on:
-  status
+  watch:
+    types: [started]
 
 name: 'Trigger: Push action'
 
