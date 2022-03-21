@@ -12,3 +12,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run ShellCheck
       uses: ludeeus/action-shellcheck@master
+  testlint:
+    name: testlint
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/test@master
