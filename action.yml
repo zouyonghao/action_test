@@ -1,7 +1,5 @@
 name: 'action_test_lint'
 description: 'lint test.md'
-inputs:
-outputs:
 runs:
   using: "composite"
   steps:
